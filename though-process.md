@@ -10,7 +10,7 @@ This repo contains a Go application that serves as a RESTful service for countin
 >   - Extension 1: Sending Data via HTTP POST
 >   - Extension 2: ID Deduplication Across Instances
 >   - Extension 3: Sending Data to a Streaming Service
-
+>- Steps to run code
 
 ## Architecture Overview
 The application is designed as a REST service with the following key components:
@@ -65,3 +65,8 @@ The main components of the code are:
 
 - A Kafka producer can be initialized, and the unique request count is sent to a Kafka topic every minute.
 - The logUniqueRequestsEveryMinute function constructs a message containing the unique request count and sends it to the Kafka topic.
+
+
+## Steps to run code
+1. Install required Go packages
+2. Run the application: `go run main.go`

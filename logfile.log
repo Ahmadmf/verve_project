@@ -4,78 +4,10 @@
 
 [GIN-debug] GET    /api/verve/accept         --> verve_project/controller.HandleVerveAccept (1 handlers)
 [GIN-debug] GET    /ping                     --> main.main.func1 (1 handlers)
-{"level":"info","caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:125","time":1729797485,"message":"Inside log unique request every minute"}
-{"level":"info","caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/main.go:43","time":1729797485,"message":"Server starting at localhost:8085"}
+{"level":"info","caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/main.go:43","time":1729805633,"message":"Server starting at localhost:8085"}
 [GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
 Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
 [GIN-debug] Listening and serving HTTP on localhost:8085
-{"level":"info","id":122,"endpoint":"https://dummyjson.com/todos/add","caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:46","time":1729797487,"message":"Received a http endpoint"}
-{"level":"info","unique request count: ":1,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:53","time":1729797487,"message":"Unique request count increases"}
-{"level":"info","endpoint":"https://dummyjson.com/todos/add","caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:84","time":1729797488,"message":"Request processed successfully: Status code: 404 Not Found"}
-{"level":"info","unique_request_count":1,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729797545,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729797605,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729797665,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729797725,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729797785,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729797845,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729797905,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729797965,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729798025,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729798085,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729798145,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729798205,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729798265,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729798325,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729798385,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729798445,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729798505,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729798565,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729798625,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729798685,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729798745,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729798805,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729798865,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729798925,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729798985,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729799045,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729799105,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729799165,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729799225,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729799285,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729799345,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729799405,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729799465,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729799525,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729799585,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729799645,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729799705,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729799765,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729799825,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729799885,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729799945,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729800005,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729800065,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729800125,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729800185,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729800245,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729800305,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729800365,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729800425,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729800485,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729800545,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729800605,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729800665,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729800725,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729800785,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729800845,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729800905,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729800965,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729801025,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729801085,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729801145,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729801205,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729801265,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729801325,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729801385,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729801445,"message":"Logged unique requests"}
-{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729801505,"message":"Logged unique requests"}
+{"level":"info","caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:125","time":1729805633,"message":"Inside log unique request every minute"}
+{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729805693,"message":"Logged unique requests"}
+{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:138","time":1729805753,"message":"Logged unique requests"}
