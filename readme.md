@@ -1,4 +1,4 @@
-# Verve Go Application
+# Verve Go Application (Thought processs)
 
 This repo contains a Go application that serves as a RESTful service for counting unique requests based on a provided ID. The application is build with Gin framework for HTTP  handling and  uses Zerolog for structured logging.
 
