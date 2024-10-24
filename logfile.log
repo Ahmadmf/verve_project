@@ -1,0 +1,18 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /api/verve/accept         --> verve_project/controller.HandleVerveAccept (1 handlers)
+[GIN-debug] GET    /ping                     --> main.main.func1 (1 handlers)
+{"level":"info","caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/main.go:43","time":1729796815,"message":"Server starting at localhost:8085"}
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on localhost:8085
+{"level":"info","caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:83","time":1729796815,"message":"Inside log unique request every minute"}
+{"level":"info","id":122,"endpoint":"http://exadsfample1.com","caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:44","time":1729796817,"message":"Received a http endpoint"}
+{"level":"info","unique request count: ":1,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:51","time":1729796817,"message":"Unique request count increases"}
+{"level":"error","error":"Get \"http://exadsfample1.com?count=1\": dial tcp: lookup exadsfample1.com on 127.0.0.53:53: no such host","endpoint":"http://exadsfample1.com","caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:74","time":1729796817,"message":"Failed to send request to endpoint: Status code: Get \"http://exadsfample1.com?count=1\": dial tcp: lookup exadsfample1.com on 127.0.0.53:53: no such host"}
+{"level":"info","id":122,"endpoint":"http://example.com","caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:44","time":1729796852,"message":"Received a http endpoint"}
+{"level":"info","endpoint":"http://example.com","caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:79","time":1729796852,"message":"Request processed successfully: Status code: 200 OK"}
+{"level":"info","unique_request_count":1,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:96","time":1729796875,"message":"Logged unique requests"}
+{"level":"info","unique_request_count":0,"caller":"/home/ahmadfiroz/Documents/Go Language/Code Practice/verve_project/controller/controller.go:96","time":1729796935,"message":"Logged unique requests"}
