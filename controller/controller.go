@@ -1,6 +1,8 @@
 package controller
 
 import (
+	"bytes"
+	"encoding/json"
 	"fmt"
 	"net/http"
 	"strconv"
@@ -55,9 +57,13 @@ func HandleVerveAccept(c *gin.Context) {
 	// If endpoint is provided, send the current unique count as a query parameter
 	if endpoint != "" {
 		go sendRequestToEndpoint(endpoint)
+		// go makePostRequest(endpoint) // uncomment in case of testing
 	}
 
-	c.String(http.StatusOK, "ok")
+	c.JSON(http.StatusOK, gin.H{
+		"statusCode": 200,
+		"message":    "OK, Done!",
+	})
 }
 
 // sendRequestToEndpoint sends the unique request count to the provided endpoint
@@ -76,6 +82,43 @@ func sendRequestToEndpoint(endpoint string) {
 	defer resp.Body.Close()
 
 	log.Info().Str("endpoint", endpoint).Msgf("Request processed successfully: Status code: %s", resp.Status)
+}
+
+// makePostRequest fires a POST request to the provided endpoint with the unique request count
+func makePostRequest(endpoint string) {
+	// Prepare the data structure for the POST request
+	data := map[string]interface{}{
+		"unique_request_count": uniqueRequestCount,
+		"message":              "Unique requests logged",
+	}
+
+	// Convert the data to JSON
+	body, err := json.Marshal(data)
+	if err != nil {
+		log.Error().Err(err).Msg("Failed to marshal JSON")
+		return
+	}
+
+	// Create a new POST request
+	req, err := http.NewRequest("POST", endpoint, bytes.NewBuffer(body))
+	if err != nil {
+		log.Error().Err(err).Msg("Failed to create POST request")
+		return
+	}
+
+	// Set the content type to application/json
+	req.Header.Set("Content-Type", "application/json")
+
+	// Send the POST request
+	resp, err := http.DefaultClient.Do(req)
+	if err != nil {
+		log.Error().Err(err).Str("url", endpoint).Msg("Failed to make POST request")
+		return
+	}
+	defer resp.Body.Close()
+
+	// Log the HTTP status code of the response
+	log.Info().Str("url", endpoint).Int("status_code", resp.StatusCode).Msg("POST request status")
 }
 
 func LogUniqueRequestsEveryMinute() {
